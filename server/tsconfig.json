@@ -3,7 +3,9 @@
     "baseUrl": ".",
     "paths": {
       "@/*": ["./*"],
-      "@config/*": ["config/*"]
+      "@config/*": ["config/*"],
+      "@models/*": ["models/*"],
+      "@utils/*": ["utils/*"]
     }
   },
   "ts-node": {

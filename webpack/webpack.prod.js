@@ -170,6 +170,8 @@ const serverConfig = {
     alias: {
       "@": `${paths.server}`,
       "@config": `${paths.server}/config`,
+      "@models": `${paths.server}/models`,
+      "@utils": `${paths.server}/utils`,
     },
     extensions: [".ts", ".js"],
   },
