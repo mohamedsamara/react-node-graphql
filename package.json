@@ -21,7 +21,8 @@
     "typescript",
     "graphql",
     "@graphql-codegen",
-    "@graphql-tools"
+    "@graphql-tools",
+    "apollographql"
   ],
   "author": "Mohamed Samara (https://github.com/mohamedsamara)",
   "license": "MIT",
