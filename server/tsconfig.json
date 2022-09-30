@@ -4,7 +4,6 @@
     "paths": {
       "@/*": ["./*"],
       "@config/*": ["config/*"],
-      "@models/*": ["models/*"],
       "@utils/*": ["utils/*"]
     }
   },

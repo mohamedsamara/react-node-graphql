@@ -1,4 +1,4 @@
-import { sequelize } from "@models/index";
+import { sequelize } from "@/models";
 import { Client } from "pg";
 
 import config from "@config/keys";

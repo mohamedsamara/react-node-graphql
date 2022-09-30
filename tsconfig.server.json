@@ -15,7 +15,7 @@
     "skipLibCheck": true,
     "noImplicitAny": true,
     "resolveJsonModule": true,
-    "outDir": "build"
+    "outDir": "build/server"
   },
   "include": ["server/**/*"],
   "exclude": ["node_modules", "./build"]

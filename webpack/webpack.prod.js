@@ -157,41 +157,4 @@ const clientConfig = merge(common, {
   },
 });
 
-const serverConfig = {
-  mode: "production",
-  context: paths.server,
-  entry: "./index.ts",
-  output: {
-    publicPath,
-    filename: "server.js",
-    path: paths.build,
-  },
-  resolve: {
-    alias: {
-      "@": `${paths.server}`,
-      "@config": `${paths.server}/config`,
-      "@models": `${paths.server}/models`,
-      "@utils": `${paths.server}/utils`,
-    },
-    extensions: [".ts", ".js"],
-  },
-  module: {
-    rules: [
-      {
-        test: /\.ts?$/,
-        loader: "ts-loader",
-        exclude: /node_modules/,
-        options: {
-          configFile: `${paths.server}/tsconfig.json`,
-        },
-      },
-    ],
-  },
-  target: "node",
-  node: {
-    __dirname: false,
-  },
-  externals: [nodeExternals()],
-};
-
-module.exports = [serverConfig, clientConfig];
+module.exports = [clientConfig];
