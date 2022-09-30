@@ -4,7 +4,7 @@
 
 <dl>
 <dt>
-    This project is a template starter example of TypeScript, React and GraphQL
+    This project is a template starter example of TypeScript, Node, React and GraphQL
 </dt>
 </dl>
 
@@ -17,17 +17,17 @@
 ## Start development
 
 ```
-$ yarn run dev
+yarn run dev
 ```
 
 ## Simple build for production
 
 ```
-$ yarn build
+yarn build
 ```
 
 ## Run build for production
 
 ```
-$ yarn start
+yarn start
 ```
